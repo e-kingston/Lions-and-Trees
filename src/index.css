@@ -13,12 +13,29 @@ code {
 }
 
 .top-section {
-  background-image: url("../public/background.jpg");
-  height: 700px;
+  background-image: url("../public/background.avif");
   background-position: center;
   background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: white;
+
 }
 
 .navbar {
   background-color: #f5f5f5;
+}
+
+.navbar-brand img {
+  margin-right: 12px;
+}
+
+.navbar-brand .company-name {
+  text-align: center;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

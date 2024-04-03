@@ -1,7 +1,11 @@
-import TopSection from "../components/top-section";
+import Introduction from "../components/introduction";
+import { Navigation } from "../components/navigation";
 
 export default function Home() {
-    return(
-      <TopSection /> 
-    )
+  return (
+    <>
+      <Navigation />
+      <Introduction />
+    </>
+  )
 }
