@@ -10,8 +10,7 @@ export default function WhyUs() {
                 Non-Traditional Clientele
               </h5>
               <p className="card-text">
-                lkjsldfjalkjfksalfasdlkfasldkfjaksldfjsalkfjaslkdfj lkjadsfjalsjfasdlkfjlaksdfjlaksdjfaklsdfjaskdlflk
-                lkjasfdlkjaslkfjasdlfasdf hggddthnhlk salkf;lksaf 
+                We cater our unique service offering to non-traditional customers.
               </p>
               <a href="/" className="btn btn-primary">Read More</a>
             </div>
@@ -21,11 +20,10 @@ export default function WhyUs() {
           <div className="card bg-light-primary">
             <div className="card-body">
               <h5 className="card-title">
-                Non-Traditional Clientele
+                Low or No Cost
               </h5>
               <p className="card-text">
-                lkjsldfjalkjfksalfasdlkfasldkfjaksldfjsalkfjaslkdfj lkjadsfjalsjfasdlkfjlaksdfjlaksdjfaklsdfjaskdlflk
-                lkjasfdlkjaslkfjasdlfasdf hggddthnhlk salkf;lksaf 
+                We provide the usual service offering but at a tiny fraction of the cost.
               </p>
               <a href="/" className="btn btn-primary">Read More</a>
             </div>
@@ -35,11 +33,10 @@ export default function WhyUs() {
           <div className="card bg-light-primary">
             <div className="card-body">
               <h5 className="card-title">
-                Non-Traditional Clientele
+                Uniquely Tailored Solutions
               </h5>
               <p className="card-text">
-                lkjsldfjalkjfksalfasdlkfasldkfjaksldfjsalkfjaslkdfj lkjadsfjalsjfasdlkfjlaksdfjlaksdjfaklsdfjaskdlflk
-                lkjasfdlkjaslkfjasdlfasdf hggddthnhlk salkf;lksaf 
+                We provide customization to solve the types of highly-specific financial challenges that people face.
               </p>
               <a href="/" className="btn btn-primary">Read More</a>
             </div>
