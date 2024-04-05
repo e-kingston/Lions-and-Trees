@@ -1,6 +1,6 @@
 export function Navigation() {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container-fluid">
         <a className="navbar-brand d-flex">
           <img src="logo.jpg" height={55} />
