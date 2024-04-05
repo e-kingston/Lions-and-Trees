@@ -43,3 +43,18 @@ code {
 .section {
   margin-top: 80px;
 }
+
+.section .section-title {
+  color: #388e3c;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 9px;
+  margin-bottom: 28px;
+}
+
+.section-separator {
+  background: url("/public/background.avif");
+  background-size: cover;
+  height: 175px;
+  margin-top: 65px;
+}

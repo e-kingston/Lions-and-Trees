@@ -1,6 +1,7 @@
 import About from "../components/about";
 import Introduction from "../components/introduction";
 import { Navigation } from "../components/navigation";
+import SectionSeparator from "../components/section-separator";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navigation />
       <Introduction />
       <About />
+      <SectionSeparator />
     </>
-  )
+  );
 }
