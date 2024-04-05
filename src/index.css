@@ -58,3 +58,16 @@ code {
   height: 175px;
   margin-top: 65px;
 }
+
+.btn-primary {
+  background-color: #ffc107;
+  border-color: #EFB916;
+}
+.btn-primary:hover{
+  background-color: #EFB916;
+  border-color: #EFB916;
+}
+
+.bg-light-primary {
+  background-color: #e6f1e7;
+}

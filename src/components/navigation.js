@@ -15,7 +15,7 @@ export function Navigation() {
               <a href="#about" className="nav-link">About</a>
             </li>
             <li className="nav-item">
-              <a href="#about" className="nav-link">Why us</a>
+              <a href="#why-us" className="nav-link">Why us</a>
             </li>
             <li className="nav-item">
               <a href="#about" className="nav-link">Clients</a>
