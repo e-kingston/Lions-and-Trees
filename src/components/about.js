@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="section container">
+    <div className="section container" id="about">
       <h2 className="text-center section-title">About Us</h2>
       <blockquote className="blockquote text-right">
         <p cla="mb-3">

@@ -1,6 +1,6 @@
 export default function WhyUs() {
   return (
-    <div className="section container">
+    <div className="section container" id="why-us">
       <h2 className="text-center section-title">Why us</h2>
       <div className="row">
         <div className="col-sm-4">
@@ -12,7 +12,7 @@ export default function WhyUs() {
               <p className="card-text">
                 We cater our unique service offering to non-traditional customers.
               </p>
-              <a href="/" className="btn btn-primary">Read More</a>
+              <a href="/why-us" className="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>
@@ -25,7 +25,7 @@ export default function WhyUs() {
               <p className="card-text">
                 We provide the usual service offering but at a tiny fraction of the cost.
               </p>
-              <a href="/" className="btn btn-primary">Read More</a>
+              <a href="/why-us" className="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@ export default function WhyUs() {
               <p className="card-text">
                 We provide customization to solve the types of highly-specific financial challenges that people face.
               </p>
-              <a href="/" className="btn btn-primary">Read More</a>
+              <a href="/why-us" className="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>
