@@ -58,13 +58,13 @@ function WhyUsCard(props) {
           </div>
         </div>
       </div>
-      <div className="col-sm-4">
-        <div className="card bg-light-primary">
-          <div className="card-body">
+      <div className="col-sm-4 d-flex align-items-stretch">
+        <div className="card bg-light-primary w-100">
+          <div className="card-body d-flex flex-column align-items-start">
             <h5 className="card-title">{props.item.title}</h5>
             <p className="card-text">{props.item.description}</p>
             <button
-              className="btn btn-outline-primary"
+              className="btn btn-outline-primary mt-auto"
               data-bs-toggle="modal"
               data-bs-target="#detailsModal"
             >
