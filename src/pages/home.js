@@ -4,6 +4,7 @@ import SectionSeparator from "../components/section-separator";
 import WhyUs from "../components/why-us";
 import Clients from "../components/clients";
 import Contact from "../components/contact-us";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Clients />
       <SectionSeparator />
       <Contact />
+      <Footer />
     </>
   );
 }
