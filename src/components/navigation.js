@@ -4,9 +4,24 @@ export function Navigation() {
       <div className="container-fluid">
         <a className="navbar-brand d-flex" href="/">
           <img src="logo.jpg" height={55} alt="..." />
-          <div className="company-name">Lions & Trees</div>
+          <div className="brand-name">
+            Lions <br /> & <br /> Trees
+          </div>
         </a>
-        <div className="justify-content-end">
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav-links"
+          aria-expanded="false"
+          aria-controls="#nav-links"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="nav-links"
+        >
           <ul className="navbar-nav gap-4">
             <li className="nav-item">
               <a href="/" className="nav-link">

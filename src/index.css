@@ -21,7 +21,6 @@ code {
   align-items: center;
   position: relative;
   color: white;
-
 }
 
 .navbar {
@@ -32,12 +31,10 @@ code {
   margin-right: 12px;
 }
 
-.navbar-brand .company-name {
+.navbar-brand .brand-name {
   text-align: center;
-  width: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  line-height: 1;
+  font-size: medium;
 }
 
 .section {
@@ -63,9 +60,9 @@ code {
   background-color: #ffc107;
   border-color: #EFB916;
 }
-.btn-primary:hover{
-  background-color: #EFB916;
-  border-color: #EFB916;
+.btn-primary:hover, .btn-primary:active{
+  background-color: #EFB916 !important;
+  border-color: #EFB916 !important;
 }
 
 .bg-light-primary {
