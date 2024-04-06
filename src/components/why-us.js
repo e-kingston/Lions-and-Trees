@@ -64,7 +64,7 @@ function WhyUsCard(props) {
             <h5 className="card-title">{props.item.title}</h5>
             <p className="card-text">{props.item.description}</p>
             <button
-              className="btn btn-outline-primary mt-auto"
+              className="btn read-more-btn mt-auto"
               data-bs-toggle="modal"
               data-bs-target="#detailsModal"
             >

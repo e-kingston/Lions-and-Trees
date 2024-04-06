@@ -68,3 +68,14 @@ code {
 .bg-light-primary {
   background-color: #e6f1e7;
 }
+
+.read-more-btn {
+  color: #4caf50;
+  border: 1px solid #4caf50;
+}
+
+.read-more-btn:hover {
+  background-color: #4caf50;
+  color: white;
+  border-color: #cae6c9;
+}
