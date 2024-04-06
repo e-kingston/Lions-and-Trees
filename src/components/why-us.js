@@ -27,7 +27,7 @@ function WhyUsCard(props) {
     <>
       <div
         className="modal fade"
-        id="detailsModal"
+        id={`${props.index}-detailsModal`}
         tabIndex="-1"
         role="dialog"
         aria-hidden="true"
@@ -66,7 +66,7 @@ function WhyUsCard(props) {
             <button
               className="btn read-more-btn mt-auto"
               data-bs-toggle="modal"
-              data-bs-target="#detailsModal"
+              data-bs-target={`#${props.index}-detailsModal`}
             >
               Read More
             </button>
@@ -82,8 +82,8 @@ export default function WhyUs() {
     <div className="section container" id="why-us">
       <h2 className="text-center section-title">Why us</h2>
       <div className="row" style={{ rowGap: "24px" }}>
-        {data.map((item) => (
-          <WhyUsCard key={item.title} item={item} />
+        {data.map((item, index) => (
+          <WhyUsCard key={item.title} item={item} index={index}/>
         ))}
       </div>
     </div>
