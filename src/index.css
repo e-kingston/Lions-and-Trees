@@ -98,3 +98,8 @@ code {
   padding-bottom: 24px;
   padding-top: 24px;
 }
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #4caf50;
+}
