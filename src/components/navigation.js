@@ -39,12 +39,12 @@ export function Navigation() {
               </a>
             </li>
             <li className="nav-item">
-              <a href="#about" className="nav-link">
+              <a href="#clients" className="nav-link">
                 Clients
               </a>
             </li>
             <li className="nav-item">
-              <a href="#about" className="btn btn-primary">
+              <a href="#contact-us" className="btn btn-primary">
                 Contact us
               </a>
             </li>

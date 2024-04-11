@@ -25,7 +25,6 @@ const data = [
 ];
 
 function AccordionItem(props) {
-  console.log(props.index);
   return (
     <div className="accordion-item">
       <h2 className="accordion-header">
@@ -55,7 +54,7 @@ function AccordionItem(props) {
 
 export default function clients() {
   return (
-    <div className="section container" id="client-success-stories">
+    <div className="section container" id="clients">
       <h2 className="text-center section-title">Client Success Stories</h2>
       <div className="accordion" id="accordionExample">
         {data.map((item, index) => (

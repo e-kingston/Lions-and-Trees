@@ -23,6 +23,13 @@ code {
   color: white;
 }
 
+.top-section h1 {
+  font-size: 48px;
+}
+.top-section p {
+  font-size: 20px;
+}
+
 .navbar {
   background-color: #f5f5f5;
 }
