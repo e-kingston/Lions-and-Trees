@@ -57,7 +57,7 @@ code {
 }
 
 .section-separator {
-  background: url("/public/background.avif");
+  background: url("/public/section-separator.jpg");
   background-size: cover;
   height: 175px;
   margin-top: 65px;
