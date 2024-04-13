@@ -1,6 +1,6 @@
 export default function contact() {
   return (
-    <div className="section container" id="contact-us">
+    <div className="section container" id="contact">
       <h2 className="text-center section-title">Contact Us</h2>
       <div className="mb-3">
         <label for="full-name" className="form-label">Full Name</label>
