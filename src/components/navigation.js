@@ -1,4 +1,5 @@
 export function Navigation() {
+
   return (
     <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container-fluid">
@@ -24,7 +25,7 @@ export function Navigation() {
         >
           <ul className="navbar-nav gap-4">
             <li className="nav-item">
-              <a href="/" className="nav-link">
+              <a href="#" className="nav-link">
                 Home
               </a>
             </li>
@@ -44,7 +45,7 @@ export function Navigation() {
               </a>
             </li>
             <li className="nav-item">
-              <a href="#contact-us" className="btn btn-primary">
+              <a href="#contact" className="btn btn-primary">
                 Contact us
               </a>
             </li>

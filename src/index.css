@@ -110,3 +110,12 @@ code {
   box-shadow: none;
   border-color: #4caf50;
 }
+
+/* offset anchors to account for fixed header */
+[id]::before {
+  content: '';
+  display: block;
+  height:      75px;
+  margin-top: -75px;
+  visibility: hidden;
+}

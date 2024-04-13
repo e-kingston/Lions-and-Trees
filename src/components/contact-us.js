@@ -12,7 +12,6 @@ export default function Contact() {
     document.querySelector("textarea").value = ""
   }
 
-  console.log(state);
   return (
     <form onSubmit={handleSubmit} className="section container" id="contact-us">
       <h2 className="text-center section-title">Contact Us</h2>
