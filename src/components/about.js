@@ -5,7 +5,7 @@ export default function About() {
       <blockquote className="blockquote text-right">
         <p cla="mb-3">
           Their search revealed, one by one, a helmet, a dagger, and a few
-          coins...genuine Narnian 'Lions' and 'Trees' such as you might see any
+          coins...genuine Narnian "Lions" and "Trees" such as you might see any
           day in the marketplace of Beaversdam or Beruna.
         </p>
         <footer className="blockquote-footer">
