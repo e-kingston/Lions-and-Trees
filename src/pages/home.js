@@ -15,7 +15,7 @@ export default function Home() {
       <WhyUs />
       <SectionSeparator />
       <Clients />
-      <SectionSeparator />
+      <SectionSeparator/>
       <Contact />
       <Footer />
     </>

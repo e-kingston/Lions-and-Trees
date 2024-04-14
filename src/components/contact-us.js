@@ -13,7 +13,7 @@ export default function Contact() {
   }
 
   return (
-    <div className="contact-section section container">
+    <div className="contact-section section container" id="contact">
       <div className="row justify-content-center">
         <form onSubmit={handleSubmit} className="col-lg-6" id="contact-us">
           <h2 className="text-center section-title">Contact Us</h2>
