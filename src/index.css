@@ -116,10 +116,10 @@ code {
 }
 
 /* offset anchors to account for fixed header */
-[id]::before {
+.section::before {
   content: '';
   display: block;
-  height:      75px;
-  margin-top: -75px;
+  height:      120px;
+  margin-top: -120px;
   visibility: hidden;
 }
