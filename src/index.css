@@ -100,7 +100,6 @@ code {
 }
 
 .foot {
-  margin-top: 36px;
   background-color: #c8e6c9;
   padding-bottom: 24px;
   padding-top: 24px;
@@ -109,6 +108,11 @@ code {
 .form-control:focus {
   box-shadow: none;
   border-color: #4caf50;
+}
+
+.contact-section {
+  padding: 36px;
+  background-color: #EAF6EB;
 }
 
 /* offset anchors to account for fixed header */

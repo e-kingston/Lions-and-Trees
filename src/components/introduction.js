@@ -3,7 +3,7 @@ export default function Introduction() {
     <div className="top-section">
       <div className="container text-center">
         <h1>Lions & Trees</h1>
-        <p>Eden will figure out what to write here!!!!!!!!!!</p>
+        <p>Personal finance.</p>
       </div>
     </div>
   )
